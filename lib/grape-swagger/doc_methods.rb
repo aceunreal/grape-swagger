@@ -212,7 +212,7 @@ module GrapeSwagger
         end
 
         result[name] = {
-          id:         name,
+          id: name,
           properties: properties
         }
         result[name].merge!(required: required) unless required.empty?
